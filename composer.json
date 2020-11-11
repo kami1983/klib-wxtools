@@ -1,0 +1,21 @@
+{
+    "name": "klib/wxtools",
+    "description": "Make wxchar msg srypto lib.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LinHai",
+            "email": "kami@cancanyou.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KLib\\WxTools\\": "src/WxTools"
+        }
+    }
+}
